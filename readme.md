@@ -1,4 +1,4 @@
-# Bro Qiang 博客
+# gaohongxiang 博客
 
 ## 版本说明
 
@@ -80,10 +80,10 @@ APP_URL=  # 换成自己网站的 URL，注意这个一定要换，本地上传�
 # 数据库配置
 DB_HOST=127.0.0.1   # Mysql 的连接地址，本地的数据库一般就是 127.0.0.1
 DB_PORT=3306        # Mysql 端口，一般默认是 3306
-DB_DATABASE=www_broqiang_com # 数据库的名称，根据创建的 database 来配置
+DB_DATABASE=www_blockchant_cn # 数据库的名称，根据创建的 database 来配置
 DB_USERNAME=root    # 数据库连接的名称
 DB_PASSWORD=1       # 数据库连接的密码
-DB_PREFIX=bro_      # 数据库表前缀，为空的话是没有前缀
+DB_PREFIX=ghx_      # 数据库表前缀，为空的话是没有前缀
 
 # 邮箱配置，如果需要重置密码，要配置此项
 MAIL_DRIVER=smtp
@@ -167,9 +167,9 @@ php artisan migrate --seed
 ```nginx
 server {
     listen       80; # 端口,一般http的是80
-    server_name  blog.broqiang.com; # 一般是域名,本机就是localhost
+    server_name  www.blockchant.cn; # 一般是域名,本机就是localhost
     index index.php index.html;  # 默认可以访问的页面,按照写入的先后顺序去寻找
-    root  /www/web/www.broqiang.com/public; # 项目根目录
+    root  /www/web/www.blockchant.cn/public; # 项目根目录
 
     # Laravel 的 url 重写
     location / {
