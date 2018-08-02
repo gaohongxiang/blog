@@ -77,6 +77,8 @@ cp .env.example .env
 APP_NAME= # 修改成自己的项目名称
 APP_URL=  # 换成自己网站的 URL，注意这个一定要换，本地上传图片和重置密码需要用到
 
+APP_KEY=
+
 # 数据库配置
 DB_HOST=127.0.0.1   # Mysql 的连接地址，本地的数据库一般就是 127.0.0.1
 DB_PORT=3306        # Mysql 端口，一般默认是 3306
