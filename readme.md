@@ -47,14 +47,14 @@ __方法二 通过 github 直接下载代码__
 
 ```bash
 
-git clone -b 1.1 https://github.com/BroQiang/www.broqiang.com.git
+git clone https://github.com/gaohongxiang/laravel-blog.git
 
 ```
 
 #### 安装依赖关系
 
 ```
-cd broqiang.com
+cd laravel-blog
 composer install
 ```
 
