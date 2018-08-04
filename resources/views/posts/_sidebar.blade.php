@@ -23,5 +23,8 @@
        <div class="card-body">
           <a href="https://www.jianshu.com/u/1f5ac0cf6a8b" target="_bank">高鸿祥-简书</a>
       </div>  
+      <div class="card-body">
+          <a href="https://broqiang.com" target="_bank">Bro Qiang</a>
+      </div> 
 </div>
 
