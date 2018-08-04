@@ -9,7 +9,7 @@
 
             @guest
                 <div class="form-group">
-                    <a class="btn btn-warning pull-right" href="{{ route('login') }}">登录</a>
+                    <a class="btn btn-success pull-right" href="{{ route('login') }}">登录</a>
                 </div>
             @else
                 <div class="form-group">
