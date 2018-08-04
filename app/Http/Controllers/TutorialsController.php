@@ -23,7 +23,10 @@ class TutorialsController extends Controller
 
     public function show(Tutorial $tutorial)
     {
-        $this->authorize('isMember', $tutorial);
+        
+        if(!$tutorial->auth) {
+            $this->authorize('isMember', $tutorial);
+        }
 
         $tutorial->allArticles()->convertMarkdownToHtml('description');
 
@@ -32,7 +35,9 @@ class TutorialsController extends Controller
 
     public function article(Request $request, Tutorial $tutorial, Article $article)
     {
-        $this->authorize('isMember', $tutorial);
+            if(!$tutorial->auth) {
+            $this->authorize('isMember', $tutorial);
+        }
 
         // 强制 url 带有 slug，如果没有就 301 重定向
         if (!empty($article->slug) && $article->slug != $request->slug) {
