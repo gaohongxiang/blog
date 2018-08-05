@@ -17,6 +17,7 @@ Route::post('posts/{post}/follow', 'PostsController@follow')->name('posts.follow
 Route::post('posts/{post}/unfollow', 'PostsController@unfollow')->name('posts.unfollow'); // 关注
 Route::post('posts/{post}/comment', 'PostsController@comment')->name('posts.comment'); // 关注
 
+
 /** 技能分类 */
 Route::resource('skills', 'SkillsController', ['only' => ['show']]);
 

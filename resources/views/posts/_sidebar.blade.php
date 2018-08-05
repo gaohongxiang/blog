@@ -20,10 +20,11 @@
       <div class="card-header bg-transparent border-info">
           <h5 class="text-muted text-center">友情链接</h5>
       </div>
-       <div class="card-body" style="margin-left:20px;">
-          <a href="https://www.jianshu.com/u/1f5ac0cf6a8b" target="_bank">高鸿祥-简书</a>
-          
-          <a href="https://broqiang.com" target="_bank" style="margin-left:50px;">Bro Qiang</a>
-      </div>  
+      <div class="card-body" >
+        <a href="https://www.jianshu.com/u/1f5ac0cf6a8b" target="_blank" style="margin-left:20px;">高鸿祥-简书</a>
+
+        <a href="https://www.broqiang.com" target="_blank" style="margin-left:50px;">Bro Qiang</a>
+      </div>
 </div>
+
 
